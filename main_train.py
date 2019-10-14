@@ -4,7 +4,7 @@ import tensorflow as tf
 from tensorflow.contrib import slim
 
 tf.app.flags.DEFINE_integer('input_size', 512, '')
-tf.app.flags.DEFINE_integer('batch_size_per_gpu', 12, '')
+tf.app.flags.DEFINE_integer('batch_size_per_gpu', 4, '')
 tf.app.flags.DEFINE_integer('num_readers', 6, '')
 tf.app.flags.DEFINE_float('learning_rate', 0.0001, '')
 tf.app.flags.DEFINE_integer('max_steps', 150001, '')
@@ -133,7 +133,7 @@ def main(argv=None):
             print("Restore pretrained model from imagenet")
             variable_restore_op = slim.assign_from_checkpoint_fn(FLAGS.pretrained_model_path, slim.get_trainable_variables(),
                                                              ignore_missing_vars=True)
-    gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.333)
+    gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.8)
     with tf.Session(config=tf.ConfigProto(allow_soft_placement=True,gpu_options=gpu_options)) as sess:
         if FLAGS.restore:
             print('continue training from previous checkpoint')
