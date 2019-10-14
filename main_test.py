@@ -203,8 +203,8 @@ def main(argv=None):
 
         variable_averages = tf.train.ExponentialMovingAverage(0.997, global_step)
         saver = tf.train.Saver(variable_averages.variables_to_restore())
-
-        with tf.Session(config=tf.ConfigProto(allow_soft_placement=True)) as sess:
+        gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.333)
+        with tf.Session(config=tf.ConfigProto(allow_soft_placement=True,gpu_options=gpu_options)) as sess:
             ckpt_state = tf.train.get_checkpoint_state(FLAGS.checkpoint_path)
             model_path = os.path.join(FLAGS.checkpoint_path, os.path.basename(ckpt_state.model_checkpoint_path))
             print('Restore from {}'.format(model_path))

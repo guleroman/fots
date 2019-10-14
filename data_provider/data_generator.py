@@ -18,6 +18,7 @@ def generator(input_images_dir, input_gt_dir, input_size=512, batch_size=12, ran
     image_list = np.array(data_loader.get_images(input_images_dir))
     # print('{} training images in {} '.format(image_list.shape[0], FLAGS.training_data_dir))
     index = np.arange(0, image_list.shape[0])
+    print(f'Index - {index}___________________________________________________________________________')
     while True:
         np.random.shuffle(index)
         batch_images = []
@@ -33,12 +34,15 @@ def generator(input_images_dir, input_gt_dir, input_size=512, batch_size=12, ran
         batch_text_labels = []
         count = 0
         for i in index:
+            print(f'i in index - {i}')
             try:
                 im_fn = image_list[i]
+                #print(f'im_fn - {im_fm}')
                 # print(im_fn)
                 # if im_fn.split(".")[0][-1] == '0' or im_fn.split(".")[0][-1] == '2':
                 #     continue
-                im = cv2.imread(os.path.join(input_images_dir, im_fn))
+                im = cv2.imread(im_fn)#os.path.join(input_images_dir, im_fn))
+                #print(f'im - {im}')
                 h, w, _ = im.shape
                 file_name = "gt_" + im_fn.replace(os.path.basename(im_fn).split('.')[1], 'txt').split('/')[-1]
                 # file_name = im_fn.replace(im_fn.split('.')[1], 'txt') # using for synthtext
