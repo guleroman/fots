@@ -4,8 +4,8 @@ import tensorflow as tf
 from tensorflow.contrib import slim
 
 tf.app.flags.DEFINE_integer('input_size', 512, '')
-tf.app.flags.DEFINE_integer('batch_size_per_gpu', 4, '')
-tf.app.flags.DEFINE_integer('num_readers', 6, '')
+tf.app.flags.DEFINE_integer('batch_size_per_gpu', 3, '')
+tf.app.flags.DEFINE_integer('num_readers', 4, '')
 tf.app.flags.DEFINE_float('learning_rate', 0.0001, '')
 tf.app.flags.DEFINE_integer('max_steps', 150001, '')
 tf.app.flags.DEFINE_float('moving_average_decay', 0.997, '')
@@ -133,7 +133,7 @@ def main(argv=None):
             print("Restore pretrained model from imagenet")
             variable_restore_op = slim.assign_from_checkpoint_fn(FLAGS.pretrained_model_path, slim.get_trainable_variables(),
                                                              ignore_missing_vars=True)
-    gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.8)
+    gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.9)
     with tf.Session(config=tf.ConfigProto(allow_soft_placement=True,gpu_options=gpu_options)) as sess:
         if FLAGS.restore:
             print('continue training from previous checkpoint')
@@ -182,6 +182,7 @@ def main(argv=None):
                 """
 
             if step % FLAGS.save_checkpoint_steps == 0:
+		print('save++++++++++++++++++++++++++++++++++++++++++++++++++save+++++++++++++++++++++++++++')
                 saver.save(sess, FLAGS.checkpoint_path + 'model.ckpt', global_step=global_step)
 
             if step % FLAGS.save_summary_steps == 0:
