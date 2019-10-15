@@ -1,0 +1,18 @@
+70,130,123,130,123,158,70,158,EPL
+209,405,272,405,272,416,209,416,Multiple
+571,274,607,274,607,289,571,289,1419A
+441,405,493,405,493,419,441,419,Species
+527,405,561,405,561,419,527,419,Mice
+675,832,690,832,690,921,675,921,89386032
+141,168,424,168,424,182,141,182,EXPERIMENTAL PATHOLOGY LABORATORIES, INC.
+291,218,438,218,438,245,291,245,QUALITY ASSURANCE REPORT CERTIFICATION
+106,274,188,274,188,290,106,290,Client Name
+106,317,208,317,208,332,106,332,Study Director
+106,360,185,360,185,375,106,375,Study Title
+109,404,195,404,195,419,109,419,Test Article
+200,274,397,274,397,289,200,289,Borriston Laboratories, Inc.
+404,275,521,275,521,290,404,290,Client Study No.
+212,316,636,316,636,335,212,335,Dr. William O. Iverson Pathologist Dr. Charley E. Gilmore
+214,344,594,344,594,391,214,391,Bioassay of Cigarette Smoke Condensates for potential Tumorigenic Activity on Mouse Skin (Revised Pathology Report)
+124,486,667,486,667,593,124,593,A11 parts of the pathology phase of this study, including the final report, were reviewed by Experimental Pathology Laboratories Quality Assurance Unit on March 2- June 8, 1983 . All Findings were reported to the Study Director and Management.
+398,661,627,661,627,749,398,749,6/8/83

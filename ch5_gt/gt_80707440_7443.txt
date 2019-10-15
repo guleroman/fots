@@ -1,0 +1,27 @@
+49,229,87,229,87,243,49,243,CLIENT:
+49,257,95,257,95,271,49,271,PRODUCT:
+596,147,667,147,667,176,596,176,
+373,225,437,225,437,240,373,240,PUBLICATION
+373,254,404,254,404,268,373,268,ISSUE:
+373,278,407,278,407,292,373,292,SPACE:
+547,275,575,275,575,289,547,289,DATE:
+102,391,193,391,193,405,102,405,ALTERNATIVES:
+103,434,167,434,167,447,103,447,HEADLINE:
+106,461,194,461,194,474,106,474,ILLUSTRATION:
+599,832,621,832,621,917,599,917,80707440
+108,228,256,228,256,242,108,242,LORILLARD CORPORATION
+110,251,328,251,328,271,110,271,Kent, Newport, True and Old Gold
+50,281,91,281,91,295,50,295,JOB NO:
+457,223,567,223,567,238,457,238,Daily Newspapers
+455,251,561,251,561,266,455,266,August 19, 1969
+415,278,542,278,542,307,415,307,1000 lines B&W 1750 lines 2- color
+587,274,630,274,630,291,587,291,8/ 8/ 69
+172,362,323,362,323,377,172,377,New York Football Fans
+105,365,161,365,161,379,105,379,LEAD- IN:
+205,388,377,388,377,419,205,419,Los Angeles Football Fans Chicago Football Fans
+180,430,436,430,436,449,180,449,Pick The Winners And Win Up $ 5 ,000
+207,458,426,458,426,474,207,474,Line Drawings of Football Scenes
+106,487,202,487,202,502,106,502,BOLD SUB- HEAD:
+214,497,574,497,574,567,214,567,1st Prize $ 5,000 2nd Prize 2,000 3rd Prize 1,000 4th Prizes 500 fans will receive copies of "The Golden Anniversary of Pro- Football"
+105,580,352,580,352,595,105,595,TEXT: Over 500 Prizes To Be Awarded
+154,592,597,592,597,702,154,702,Now you can win up $ 5,000 for simply picking the winners of the games listed below. Just check the box next to the team you think will win. Allow for the point spread in your selections. (For example, if a team is quoted as +7 pts. this means they must win the game by at least 7 points.) Prizes will be awarded by random drawings to those who have the greatest official number of winning selections. Full details are in the Rules.

@@ -1,0 +1,36 @@
+94,200,114,200,114,214,94,214,TO:
+92,219,128,219,128,232,92,232,FROM:
+95,236,129,236,129,250,95,250,DATE:
+313,200,408,200,408,214,313,214,MANUFACTURER:
+313,218,356,218,356,231,313,231,BRAND:
+278,268,299,268,299,282,278,282,Oct.
+461,268,485,268,485,281,461,281,Dec.
+553,268,575,268,575,279,553,279,Jan.
+369,270,393,270,393,281,369,281,Nov.
+404,270,414,270,414,280,404,280,X
+451,198,476,198,476,212,451,212,B&W
+680,814,698,814,698,917,680,917,82250337
+221,133,505,133,505,168,221,168,COMPETITIVE PRODUCT INTRODUCTION PROGRESS REPORT
+140,201,193,201,193,214,140,214,Sam Zolot
+405,218,472,218,472,228,405,228,Kool Waterfall
+451,235,509,235,509,248,451,248,All Packings
+314,235,419,235,419,248,314,248,TYPE OF PACKINGS:
+140,219,199,219,199,230,140,230,D. J. Landro
+138,237,184,237,184,247,138,247,2- Dec- 97
+94,271,213,271,213,285,94,285,REPORTING PERIODS:
+95,321,244,321,244,335,95,335,TEST MARKET GEOGRAPHY:
+313,318,543,318,543,334,313,334,Divisions 621 and 627 wisconsin
+92,358,166,358,166,371,92,371,PRICE POINT:
+180,358,285,358,285,369,180,369,FULLS $ P/ V $
+321,355,513,355,513,369,321,369,(Indicate Distributor's Cost Per Carton)
+94,392,254,392,254,406,94,406,SALES FORCE INVOLVEMENT:
+94,413,644,413,644,452,94,452,They have crew- worked distribution, and it is reported that they may crew- work it again Sales force has been busy promoting old style backs to clean up inventory. All POS is being converted to "B" Kool.
+94,500,493,500,493,515,94,515,DISTRIBUTORS ACCEPTANCE INTRO TERMS INTRO DEALS INVOLVEMENT:
+94,522,606,522,606,559,94,559,All accounts have the new packaging. It was not a problem obtaining new distribution. All accounts appear to have 100% distribution of new packings.
+92,609,317,609,317,623,92,623,CHAINS ACCEPTANCE/ MERCHANDISING:
+95,628,516,628,516,647,95,647,This has not been a problem. New packaging is just following on the old "packaging".
+92,716,359,716,359,731,92,731,INDEPENDENTS ACCEPTANCE/ MERCHANDISING:
+94,737,587,737,587,774,94,774,Very well received. The packs are peing consolidated and promoted in select retail locations at 40 off $4 00 off cartons.
+94,824,321,824,321,839,94,839,ADVERTISING EFFECTIVENESS OF P. O. S.:
+94,844,610,844,610,904,94,904,The theme "B" Kool has replaced all previous POS. They have effectively replaced all old POS. New door signage, hour signs, poster mats, and clocks have the new design. "B" Kool also appears on billboards in llinois.
+330,950,397,950,397,963,330,963,PAGE 1 OF 2

@@ -1,0 +1,24 @@
+92,197,162,197,162,215,92,215,AUTHORS
+92,225,137,225,137,239,92,239,TITLE
+391,310,535,310,535,330,391,330,RECOMMENDATION:
+209,169,236,169,236,182,209,182,533
+508,172,537,172,537,186,508,186,Date
+549,310,562,310,562,324,549,324,x
+240,339,268,339,268,353,240,353,NOT
+272,339,340,339,340,352,272,352,APPROVE
+656,742,680,742,680,836,656,836,00070353
+96,67,253,67,253,84,96,84,Manuscript Review Form
+334,126,458,126,458,144,334,144,TOBACCO SCIENCE
+94,169,191,169,191,186,94,186,Registration No
+543,173,649,173,649,188,543,188,March 18, 1968
+208,197,598,197,598,215,208,215,Andrew G. Kallianos, Richard K. Means, James D. Mold
+209,223,620,223,620,270,209,270,"Effect of Nitrates in Tobacco on the Catechol Yield in Cigarette Smoke"
+92,310,245,310,245,324,92,324,REVIEW COMPLETED
+91,338,209,338,209,355,91,355,PRESENT FORM:
+274,304,339,304,339,321,274,321,3/ 29/ 68
+570,313,686,313,686,330,570,330,APPROVE IN ITS
+345,338,476,338,476,357,345,357,(Give reasons below):
+507,341,683,341,683,358,507,358,APPROVE TENTATIVELY
+92,365,579,365,579,387,92,387,SUBJECT TO THE FOLLOWING SUGGESTED REVISIONS: (itemize below):
+91,416,616,416,616,461,91,461,Page 4 - Last line should be Mass spectrometric instead of Mass spectroscopic.
+88,845,685,845,685,901,88,901,NOTE- Execute in triplicate using additionall sheets if more space is required. Retain the third copy for your file Return the original (signed) and the first carbon (unsigned) along with the manuscript to this office The unsigned copy and the manuscript will be for returned to the author his consideration.

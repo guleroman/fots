@@ -1,0 +1,18 @@
+501,141,535,141,535,156,501,156,Date
+197,295,267,295,267,312,197,312,Marketing
+168,270,203,270,203,283,168,283,Mann
+299,81,473,81,473,98,299,98,Project Initiation Form
+547,141,674,141,674,159,547,159,November 15, 1968
+168,141,229,141,229,156,168,156,CST- N- 68
+54,141,144,141,144,159,54,159,Project Code
+53,209,144,209,144,226,53,226,Project Name
+170,207,349,207,349,226,170,226,Charcoal Smoking Tobacco
+54,267,159,267,159,284,54,284,Project Leader
+53,299,180,299,180,316,53,316,Work Requested by
+54,355,181,355,181,373,54,373,Project Objective
+200,353,655,353,655,402,200,402,A pipe tobacco containing activated charcoal - must show vapor phase reduction.
+106,432,549,432,549,500,106,500,Smoking Deval Tobacco 
+57,744,237,744,237,762,57,762,Other personnel assigned
+254,742,690,742,690,760,254,760,Analytical Section is doing most of the work on vapor phase.
+74,771,468,771,468,790,74,790,PDL and John Brooks preparing charocal impregnated RC.
+61,848,310,848,310,866,61,866,Estimated Man Hours for Completion
