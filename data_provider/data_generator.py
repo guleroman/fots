@@ -51,7 +51,7 @@ def generator(input_images_dir, input_gt_dir, input_size=512, batch_size=12, ran
                 if not os.path.exists(txt_fn):
                     print('text file {} does not exists'.format(txt_fn))
                     continue
-                print(txt_fn)
+                #print(txt_fn)
                 text_polys, text_tags, text_labels = data_loader.load_annotation(txt_fn) # Change for load text transiption
                 
                 if text_polys.shape[0] == 0:
