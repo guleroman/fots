@@ -9,6 +9,7 @@ from data_provider.data_utils import check_and_validate_polys, crop_area, rotate
 from data_provider.ICDAR_loader import ICDARLoader
 # from data_provider.SynthText_loader import SynthTextLoader
 from data_provider.data_enqueuer import GeneratorEnqueuer
+import image_to_numpy
 
 
 def generator(input_images_dir, input_gt_dir, input_size=512, batch_size=12, random_scale=np.array([0.8, 0.85, 0.9, 0.95, 1.0, 1.1, 1.2]),):
@@ -16,6 +17,7 @@ def generator(input_images_dir, input_gt_dir, input_size=512, batch_size=12, ran
     data_loader = ICDARLoader(edition='13', shuffle=True)
     # image_list = np.array(data_loader.get_images(FLAGS.training_data_dir))
     image_list = np.array(data_loader.get_images(input_images_dir))
+    #image_to_numpy.load_image_file(
     # print('{} training images in {} '.format(image_list.shape[0], FLAGS.training_data_dir))
     index = np.arange(0, image_list.shape[0])
     #print(f'Index - {index}___________________________________________________________________________')
@@ -41,7 +43,8 @@ def generator(input_images_dir, input_gt_dir, input_size=512, batch_size=12, ran
                 # print(im_fn)
                 # if im_fn.split(".")[0][-1] == '0' or im_fn.split(".")[0][-1] == '2':
                 #     continue
-                im = cv2.imread(im_fn)#os.path.join(input_images_dir, im_fn))
+                #im = cv2.imread(im_fn)#os.path.join(input_images_dir, im_fn))
+                im = image_to_numpy.load_image_file(im_fn)
                 #print(f'im - {im}')
                 h, w, _ = im.shape
                 file_name = "gt_" + im_fn.replace(os.path.basename(im_fn).split('.')[1], 'txt').split('/')[-1]

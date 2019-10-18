@@ -8,6 +8,7 @@ import tensorflow as tf
 import locality_aware_nms as nms_locality
 import lanms
 from bktree import BKTree, levenshtein, list_words
+import image_to_numpy
 
 tf.app.flags.DEFINE_string('test_data_path', '/home/qz/data/ICDAR15/ch4_test_images/', '')
 tf.app.flags.DEFINE_string('gpu_list', '0', '')
@@ -212,7 +213,7 @@ def main(argv=None):
 
             im_fn_list = get_images()
             for im_fn in im_fn_list:
-                im = cv2.imread(im_fn)[:, :, ::-1]
+                im = image_to_numpy.load_image_file(im_fn)[:, :, ::-1]
                 start_time = time.time()
                 im_resized, (ratio_h, ratio_w) = resize_image(im)
                 # im_resized_d, (ratio_h_d, ratio_w_d) = resize_image_detection(im)
